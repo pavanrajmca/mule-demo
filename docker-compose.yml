@@ -1,0 +1,7 @@
+version: '3'
+#./tmp/mule-enterprise-standalone-4.2.2/bin/mule 
+services:
+    mule1:
+        build: .
+        ports:
+          - "8000:8081"
